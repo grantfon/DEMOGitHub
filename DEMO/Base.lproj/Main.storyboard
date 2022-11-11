@@ -112,11 +112,19 @@
                                 <rect key="frame" x="53" y="653" width="287" height="4"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="https___hk.hypebeast.com_files_2022_10_ferrari-officially-launches-the-499p-the-car-for-fia-wec-endurance-races-from-2023-1" translatesAutoresizingMaskIntoConstraints="NO" id="5dn-ge-lRV">
+                                <rect key="frame" x="36" y="47" width="312" height="221"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBx-eZ-M8U">
-                                <rect key="frame" x="55" y="553" width="111" height="55"/>
+                                <rect key="frame" x="93" y="329" width="255" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
+                                <buttonConfiguration key="configuration" style="plain" cornerStyle="medium">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                                        <color key="strokeColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
                                     <string key="title">跳回第一個
 畫面</string>
                                 </buttonConfiguration>
@@ -124,10 +132,6 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="Vda-V7-EMk"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="https___hk.hypebeast.com_files_2022_10_ferrari-officially-launches-the-499p-the-car-for-fia-wec-endurance-races-from-2023-1" translatesAutoresizingMaskIntoConstraints="NO" id="5dn-ge-lRV">
-                                <rect key="frame" x="36" y="47" width="312" height="221"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Tz1-3n-BLt"/>
                         <color key="backgroundColor" red="0.87843143940000001" green="0.90196084980000002" blue="0.26568627360000002" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -136,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V4b-oT-Huz" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="402" y="71"/>
+            <point key="canvasLocation" x="401.86046511627904" y="70.815450643776828"/>
         </scene>
     </scenes>
     <resources>
@@ -145,6 +149,9 @@
         <image name="https___hk.hypebeast.com_files_2022_10_ferrari-officially-launches-the-499p-the-car-for-fia-wec-endurance-races-from-2023-1" width="800" height="533"/>
         <systemColor name="systemBrownColor">
             <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
